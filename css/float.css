@@ -1,0 +1,83 @@
+h1 {
+    color: blue;
+    text-align: center; }
+
+div {
+    margin-left: auto;
+    margin-right: auto; }
+
+#boxgeneral {
+    width: 600px;
+    height: 600px; }
+
+#box1 {
+    background-color: #669900;
+    float: left;
+    width: 70%;
+    height: 100px; }
+    
+
+#box2 {   background-color: #99cc00;
+    float: left;
+    width: 30%;
+    height: 100px;}
+
+#box3 {
+    background-color: black;
+    float: left;
+    width: 35%;
+    height: 200px;}
+
+#box4 {
+    background-color: #1b00cc;
+    float: left;
+    width: 35%;
+    height: 200px;}
+
+#box5 {
+    background-color: #992100;
+    float: right;
+    width: 30%;
+    height: 100px;}
+
+#box6 {
+    background-color: #cc00b8;
+    float: right;
+    width: 30%;
+    height: 100px;}
+
+#box7 {
+    background-color: #70faff;
+    float: left;
+    width: 70%;
+    height: 100px; } 
+
+#box8 {
+    background-color: rgb(255, 201, 221);
+    float: right;
+    width: 30%;
+    height: 200px; }
+
+#box9 {
+    background-color: #cc7e00;
+    float: left;
+    width: 70%;
+    height: 100px; }
+
+#box10 {
+    background-color: #000a99;
+    float: left;
+    width: 35%;
+    height: 100px; }
+
+#box11 {
+    background-color: #9900cc;
+    float: left;
+    width: 35%;
+    height: 100px; }
+
+#box12 {
+    background-color: #580230;
+    float: right;
+    width: 30%;
+    height: 100px; }
