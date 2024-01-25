@@ -1,0 +1,60 @@
+#basicinfo
+{
+    background-color: rgb(255, 171, 103);
+}
+#nationality
+{
+    background-color: greenyellow;
+}
+#studies
+{
+    background-color: pink;
+}
+#languages
+{
+    background-color: aqua;
+}
+
+legend
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+}
+label
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#SubmitButton
+{
+    background-color: rgb(224, 224, 224);
+    border: 2px;
+}
+#SubmitField
+{
+    background-color: rgb(206, 206, 206);
+}
+#nombre
+{
+    width: 600px;
+}
+input ¡
+{
+    height: 30px;
+}   
+
+legend
+{
+    font-style: italic;
+    color: blue;
+}
+
+#nacionalidad
+{
+    color: rgb(255, 115, 0);
+}
+
+#idiomas
+{
+    color: rgb(255, 0, 0);
+}

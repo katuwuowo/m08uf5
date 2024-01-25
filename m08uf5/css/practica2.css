@@ -1,0 +1,91 @@
+@font-face {
+    font-family: fuentelocal;
+    src: url(../fonts/Kanit-Medium.ttf);
+}
+
+table
+{
+    border-width: 6px;
+    border-style: double;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+td
+{
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    font-family: ;
+}
+th, td
+{
+    width: 150px;
+    height: 32px;
+}
+
+th
+{
+    border-width: 2px;
+    border-style: outset;
+    border-collapse: collapse;
+}
+.Bardaji
+{
+    background-color: lightsalmon;
+    font-family: fuentelocal;
+}
+
+.assignatura
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Duran
+{
+    background-color: cornflowerblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Gomez
+{
+    background-color: hotpink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Montesinos
+{
+    background-color: blanchedalmond;
+    font-family: fantasy;
+}
+.Descans
+{
+    text-align: center;
+    background-color: gold;
+}
+
+img
+{
+    height: 50px;
+    width: 70px;
+}
+
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Campaña
+{
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.check
+{
+    height: 700px;
+    width: 800px;
+}

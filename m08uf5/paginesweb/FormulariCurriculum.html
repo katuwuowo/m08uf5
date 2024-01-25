@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/curriculum.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+</head>
+<body>
+    <form action="../php/form.php">
+    <fieldset id="basicinfo">
+        <legend>Información Basica</legend>
+        <label>Nombre</label><br>
+        <input type="text" id="nombre" placeholder="tunombre" name="nombre"><br>
+        <label>Altura en centimetros</label><br>
+        <input type="number" placeholder="167" name="altura"><br>
+        <label>email</label><br>
+        <input type="text" placeholder="tuemail@dominio.com" name="email"><br>
+        <label>Fecha Nacimiento:</label><br>
+        <input type="date" value="" name="fecha">
+     </fieldset>
+     <fieldset id="nationality" name="nacionalidad">
+        <legend id="nacionalidad">Nacionalidad</legend>
+        <input id="ES" type="radio" value="ES" name="nacionalidad">
+        <label for="ES">Española</label>
+        <input id="UE" type="radio" value="UE" name="nacionalidad">
+        <label for="UE">Comunitario(UE)</label>
+        <input id="NC" type="radio" value="NC" name="nacionalidad">
+        <label for="NC">No comunitario</label>
+     </fieldset>
+     <fieldset id="studies">
+        <legend>Estudios</legend>
+        <select name="estudios">
+            <option value="ESO">ESO</option> 
+            <option value="GM">GM</option> 
+            <option value="GS">GS</option> 
+            <option value="Universidad">Universidad</option> 
+        </select>
+    </fieldset>
+    <fieldset id="languages">
+        <legend id="idiomas">Idiomas</legend> 
+        <input id="Català" type="checkbox" value="Català" name="idiomas[]">
+        <label for="Català">Catalán</label>
+        <input id="Castellà" type="checkbox" value="Castellà" name="idiomas[]">
+        <label for="Castellà">Castellano</label>
+        <input id="Ingles" type="checkbox" value="Ingles" name="idiomas[]">
+        <label for="Ingles">Ingles</label>
+        <input id="Japonés" type="checkbox" value="Japonés" name="idiomas[]">
+        <label for="Japonés">Japonés
+        </label>
+    </fieldset> <br>
+    <fieldset id="SubmitField">
+    <input id="Submit" type="submit" name="SUBMITBUTTON" value="Enviar"/>
+    <input id="Cancel" type="reset" name="CANCELBUTTON" value="Cancelar"/>
+    </fieldset>
+    </form> <br>
+    <a href="../index.html">Anar a índex</a>
+    <img src="../imatges/pt3check.png" alt="Comprobació">
+    <img src="../imatges/pt3phpcheck.png" alt="ComprobacióPHP">
+
+</body>
+</html>

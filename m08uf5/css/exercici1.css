@@ -1,0 +1,26 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    color: blue;
+}
+
+p
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(146, 0, 146);
+}
+
+h3
+{
+    color: green;
+}
+span
+{
+    color: darkcyan;
+    font-size: large;
+    font-style: italic;
+}
